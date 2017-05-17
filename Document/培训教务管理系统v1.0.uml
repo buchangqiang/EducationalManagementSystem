@@ -9,7 +9,7 @@
 <XPD:BODY>
 <XPD:OBJ name="DocumentElement" type="UMLProject" guid="k3az8lqOXUSCBMyLhqAV3wAA">
 <XPD:ATTR name="Title" type="string">培训教务管理系统v1.0</XPD:ATTR>
-<XPD:ATTR name="#OwnedElements" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="#OwnedElements" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="OwnedElements[0]" type="UMLPackage" guid="W3uU5BXSkE2TmrPjZ+jJuwAA">
 <XPD:ATTR name="Name" type="string">需求分析和设计</XPD:ATTR>
 <XPD:REF name="Namespace">k3az8lqOXUSCBMyLhqAV3wAA</XPD:REF>
@@ -2569,7 +2569,7 @@
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="Z2LIuniMT0ubm2HWYeisPwAA">
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">3 : 标记是否为【有效客源】</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">3 : 标记是否为有效客源</XPD:ATTR>
 <XPD:REF name="Model">k1nB96qt00uKr5gV5+Z+igAA</XPD:REF>
 <XPD:REF name="HostEdge">cggAm37K9EarmGOE4QCQhQAA</XPD:REF>
 </XPD:OBJ>
@@ -2663,7 +2663,7 @@
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="rQicTtHIVUSuzYRNqbsL1wAA">
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">5 : 回访待邀约客户即【有效客源】,直到应邀()</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">5 : 回访【待邀约】客户,直到应邀()</XPD:ATTR>
 <XPD:REF name="Model">ue8PNK+o/EqjIGChF3bsAwAA</XPD:REF>
 <XPD:REF name="HostEdge">PW0YUqkumE+PiKmqwyYmSwAA</XPD:REF>
 </XPD:OBJ>
@@ -2808,7 +2808,7 @@
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="pZE1npssjk6wORuaNvmpZgAA">
 <XPD:ATTR name="Alpha" type="real">3.00904048517057</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">75.6637297521078</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">9 : 签单成功则【签约完成】,否则【已接待】继续回访跟进</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">9 : 签单成功则【已签单】,否则【已接待】继续回访跟进</XPD:ATTR>
 <XPD:REF name="Model">VtPcgZuhlkaymZ1e/F70rAAA</XPD:REF>
 <XPD:REF name="HostEdge">MofasUllGEWHoR2vTYYSCQAA</XPD:REF>
 </XPD:OBJ>
@@ -2866,7 +2866,7 @@
 <XPD:REF name="Views[3]">zmfHnkEfkkahd0Ih68/pvwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="ParticipatingStimuli[2]" type="UMLStimulus" guid="k1nB96qt00uKr5gV5+Z+igAA">
-<XPD:ATTR name="Name" type="string">标记是否为【有效客源】</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">标记是否为有效客源</XPD:ATTR>
 <XPD:REF name="Sender">UFgZSI6LwU6GmtjTzrGsDwAA</XPD:REF>
 <XPD:REF name="Receiver">CzWqsd7FJkOh1pqW3W5vCQAA</XPD:REF>
 <XPD:OBJ name="Action" type="UMLReturnAction" guid="FZvZZz4z0EuusLHF3cusKQAA">
@@ -2894,7 +2894,7 @@
 <XPD:REF name="Views[3]">6OfsyQhO50KPDDg9QXzumgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="ParticipatingStimuli[4]" type="UMLStimulus" guid="ue8PNK+o/EqjIGChF3bsAwAA">
-<XPD:ATTR name="Name" type="string">回访待邀约客户即【有效客源】,直到应邀</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">回访【待邀约】客户,直到应邀</XPD:ATTR>
 <XPD:REF name="Sender">CzWqsd7FJkOh1pqW3W5vCQAA</XPD:REF>
 <XPD:REF name="Receiver">pX3jUpar60eDZT/HBcyVPgAA</XPD:REF>
 <XPD:OBJ name="Action" type="UMLCallAction" guid="J8ymK41qZ0yUJweyhT9+dwAA">
@@ -2950,7 +2950,7 @@
 <XPD:REF name="Views[3]">xcE2WwEaOk2mG0EsVkqNQAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="ParticipatingStimuli[8]" type="UMLStimulus" guid="VtPcgZuhlkaymZ1e/F70rAAA">
-<XPD:ATTR name="Name" type="string">签单成功则【签约完成】,否则【已接待】继续回访跟进</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">签单成功则【已签单】,否则【已接待】继续回访跟进</XPD:ATTR>
 <XPD:REF name="Sender">oDDx0CBR8EO2mfEzIhzkMgAA</XPD:REF>
 <XPD:REF name="Receiver">CzWqsd7FJkOh1pqW3W5vCQAA</XPD:REF>
 <XPD:OBJ name="Action" type="UMLReturnAction" guid="/cHVYaSulkOMXd8EpPf4QgAA">
@@ -3213,17 +3213,17 @@
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">232</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">272</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">104</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">276</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">128</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">41</XPD:ATTR>
 <XPD:ATTR name="Text" type="string">此客源默认就是
-【有效客源】
+有效客源【待邀约】
 </XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedViews[10]" type="UMLNoteLinkView" guid="viH3Ad/gDkaHqUhbzW7BRQAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">293,252;288,272</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">295,252;295,276</XPD:ATTR>
 <XPD:REF name="Head">wzw0aIMisU2wYiH+zCBwzQAA</XPD:REF>
 <XPD:REF name="Tail">mpv2bl4xjU6ZSwGCw5IC2gAA</XPD:REF>
 </XPD:OBJ>
@@ -3231,7 +3231,7 @@
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">378,266;215,266</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">378,268;215,268</XPD:ATTR>
 <XPD:REF name="Model">SnGWsQGv70Sn4/413oxTtQAA</XPD:REF>
 <XPD:REF name="Head">SfDnu41+lE203jhnT0HgFwAA</XPD:REF>
 <XPD:REF name="Tail">hR2gDXEkf0irIXDhKGvCpgAA</XPD:REF>
@@ -3259,7 +3259,7 @@
 <XPD:OBJ name="Activation" type="UMLActivationView" guid="ZULHrivniESQxDJ92PAypgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">202</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">266</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">268</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">14</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">29</XPD:ATTR>
 </XPD:OBJ>
@@ -3456,7 +3456,7 @@
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="tv6o/yMIQE+x6ufOoEbmSgAA">
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">9 : 签单成功则【签约完成】,否则【已接待】继续回访跟进</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">9 : 签单成功则【已签单】,否则【已接待】继续回访跟进</XPD:ATTR>
 <XPD:REF name="Model">kVcEjoEx0Uy3QOHMH7uFrwAA</XPD:REF>
 <XPD:REF name="HostEdge">YWc9G+O1+kWvZQV0WPXDiQAA</XPD:REF>
 </XPD:OBJ>
@@ -3597,7 +3597,7 @@
 <XPD:REF name="Views[3]">8bYuqblgvUaasTEjFgW06AAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="ParticipatingStimuli[8]" type="UMLStimulus" guid="kVcEjoEx0Uy3QOHMH7uFrwAA">
-<XPD:ATTR name="Name" type="string">签单成功则【签约完成】,否则【已接待】继续回访跟进</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">签单成功则【已签单】,否则【已接待】继续回访跟进</XPD:ATTR>
 <XPD:REF name="Sender">oDDx0CBR8EO2mfEzIhzkMgAA</XPD:REF>
 <XPD:REF name="Receiver">CzWqsd7FJkOh1pqW3W5vCQAA</XPD:REF>
 <XPD:OBJ name="Action" type="UMLReturnAction" guid="GL6disfibEyGlI/YPD4gGQAA">
@@ -3952,7 +3952,7 @@
 <XPD:ATTR name="AutoResize" type="boolean">True</XPD:ATTR>
 <XPD:ATTR name="Alpha" type="real">2.75698736798342</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">45.3100430368368</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">6 : 签单成功则【签约完成】,否则【已接待】继续回访跟进</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">6 : 签单成功则【已签单】,否则【已接待】继续回访跟进</XPD:ATTR>
 <XPD:REF name="Model">2lQZxQgco0CXvnE5xohskgAA</XPD:REF>
 <XPD:REF name="HostEdge">TDCEUe8KWEGUUDjYd4Ad6gAA</XPD:REF>
 </XPD:OBJ>
@@ -4051,7 +4051,7 @@
 <XPD:REF name="Views[3]">+IMZCmn7jEOOGy5Dd7ztLQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="ParticipatingStimuli[5]" type="UMLStimulus" guid="2lQZxQgco0CXvnE5xohskgAA">
-<XPD:ATTR name="Name" type="string">签单成功则【签约完成】,否则【已接待】继续回访跟进</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">签单成功则【已签单】,否则【已接待】继续回访跟进</XPD:ATTR>
 <XPD:REF name="Sender">oDDx0CBR8EO2mfEzIhzkMgAA</XPD:REF>
 <XPD:REF name="Receiver">GAA2JuBI/EC+B3Ncr3pk8gAA</XPD:REF>
 <XPD:OBJ name="Action" type="UMLReturnAction" guid="gFSnnAjwKUmZL4UKMqiM3QAA">
@@ -4253,7 +4253,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[2]" type="UMLPackage" guid="mUS3fHy/q0SBX9tSXcxo7AAA">
-<XPD:ATTR name="Name" type="string">状态分析</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">状态机分析</XPD:ATTR>
 <XPD:REF name="Namespace">W3uU5BXSkE2TmrPjZ+jJuwAA</XPD:REF>
 <XPD:ATTR name="#Behaviors" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Behaviors[0]" type="UMLStateMachine" guid="EumvG3vm8UOZh7b3/qqL+QAA">
@@ -4296,7 +4296,7 @@
 <XPD:REF name="Incomings[0]">cV1Umw3v/UCbGUZ8/ii+3AAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Subvertices[3]" type="UMLCompositeState" guid="HXqprKGixE6MoxG+CMhu8AAA">
-<XPD:ATTR name="Name" type="string">【有效客源】</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">【待邀约】</XPD:ATTR>
 <XPD:REF name="ContainerState">rNQ/LEKde0GTYNRBzhLc5AAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">+1cw90UAEUqN6RhA2J+41wAA</XPD:REF>
@@ -4313,7 +4313,7 @@
 <XPD:REF name="ContainerState">rNQ/LEKde0GTYNRBzhLc5AAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Subvertices[5]" type="UMLCompositeState" guid="XfKnUa7WUEyCh6AiUjQxNgAA">
-<XPD:ATTR name="Name" type="string">【无效客源】</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">标记为无效客源！</XPD:ATTR>
 <XPD:REF name="ContainerState">rNQ/LEKde0GTYNRBzhLc5AAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">nVDPKG3Ay0Wh3qWLK7wiQAAA</XPD:REF>
@@ -4343,7 +4343,7 @@
 <XPD:REF name="Incomings[0]">UrAh0tj3aku2+xDryaScoQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Subvertices[8]" type="UMLCompositeState" guid="OD52h8rH1kiL1EliI6zHuwAA">
-<XPD:ATTR name="Name" type="string">【签约完成】</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">【已签单】</XPD:ATTR>
 <XPD:REF name="ContainerState">rNQ/LEKde0GTYNRBzhLc5AAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">6abX13QRVEKV3wKX/nIsLAAA</XPD:REF>
@@ -4518,7 +4518,7 @@
 <XPD:REF name="Model">HXqprKGixE6MoxG+CMhu8AAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="87yA2/3FPEiqOPXYoKbnyQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="1DdQ0QOjf0OeQNWvTq8kBAAA">
-<XPD:ATTR name="Text" type="string">【有效客源】</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">【待邀约】</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="W4e1BSEs5EaB648c+jFa3wAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -4560,14 +4560,14 @@
 <XPD:OBJ name="OwnedViews[7]" type="UMLStateView" guid="nVDPKG3Ay0Wh3qWLK7wiQAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">196</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">184</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">244</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">82</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">106</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">40</XPD:ATTR>
 <XPD:REF name="Model">XfKnUa7WUEyCh6AiUjQxNgAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="DUbP3DFNF0yENx3cVk0djwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="IBzO8lAPAkaRdWDX91R2oQAA">
-<XPD:ATTR name="Text" type="string">【无效客源】</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">标记为无效客源！</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="TdZdVdvM8Ea54rf96fqOpQAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -4588,8 +4588,8 @@
 <XPD:REF name="Head">nVDPKG3Ay0Wh3qWLK7wiQAAA</XPD:REF>
 <XPD:REF name="Tail">gQ/0P1VPI0S9rNMT2zWlygAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="vYm3fFs/Q0am4VDCNYv4MAAA">
-<XPD:ATTR name="Alpha" type="real">0.114585683559573</XPD:ATTR>
-<XPD:ATTR name="Distance" type="real">8.54400374531753</XPD:ATTR>
+<XPD:ATTR name="Alpha" type="real">1.54976593479725</XPD:ATTR>
+<XPD:ATTR name="Distance" type="real">54.0832691319598</XPD:ATTR>
 <XPD:ATTR name="Text" type="string">呼出电话用户(无效)</XPD:ATTR>
 <XPD:REF name="Model">EhJgZCcAQE6vfBHBu8EUFgAA</XPD:REF>
 </XPD:OBJ>
@@ -4700,7 +4700,7 @@
 <XPD:REF name="Model">OD52h8rH1kiL1EliI6zHuwAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="ysAYh+xDTECd83q1xUnE8gAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="9ag3HwzZaEGbiRJfygPymQAA">
-<XPD:ATTR name="Text" type="string">【签约完成】</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">【已签单】</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="AQi6e0gNUkKwA6PVjRCRHgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -5016,6 +5016,32 @@
 <XPD:REF name="Views[1]">Vr8BdSnIEk2b980yxt3tnwAA</XPD:REF>
 <XPD:REF name="Views[2]">2lf1rBKYg0+5BMCIIa5yKwAA</XPD:REF>
 <XPD:REF name="Views[3]">IoQp4JgIwUGeq9jevMtAfwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[1]" type="UMLPackage" guid="1P2hDHXiA0e1mP8rGAsQ7AAA">
+<XPD:ATTR name="Name" type="string">详细设计</XPD:ATTR>
+<XPD:REF name="Namespace">k3az8lqOXUSCBMyLhqAV3wAA</XPD:REF>
+<XPD:ATTR name="#OwnedElements" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedElements[0]" type="UMLPackage" guid="s0fg6GFHH0G0HFer7mU/RgAA">
+<XPD:ATTR name="Name" type="string">核心流程图</XPD:ATTR>
+<XPD:REF name="Namespace">1P2hDHXiA0e1mP8rGAsQ7AAA</XPD:REF>
+<XPD:ATTR name="#Behaviors" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Behaviors[0]" type="UMLActivityGraph" guid="ILQPVQ75IkqbY9dQGey9+AAA">
+<XPD:ATTR name="Name" type="string">ActivityGraph1</XPD:ATTR>
+<XPD:REF name="Context">s0fg6GFHH0G0HFer7mU/RgAA</XPD:REF>
+<XPD:OBJ name="Top" type="UMLCompositeState" guid="HYQ0UmnvpUKQhdQe6sQq+AAA">
+<XPD:ATTR name="Name" type="string">TOP</XPD:ATTR>
+<XPD:REF name="StateMachine">ILQPVQ75IkqbY9dQGey9+AAA</XPD:REF>
+</XPD:OBJ>
+<XPD:ATTR name="#OwnedDiagrams" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedDiagrams[0]" type="UMLActivityDiagram" guid="KVG43aEyW0SQNKdLJwZG4AAA">
+<XPD:ATTR name="Name" type="string">ActivityDiagram1</XPD:ATTR>
+<XPD:REF name="DiagramOwner">ILQPVQ75IkqbY9dQGey9+AAA</XPD:REF>
+<XPD:OBJ name="DiagramView" type="UMLActivityDiagramView" guid="Sv4ugyjoyE2OlJh9DONWlAAA">
+<XPD:REF name="Diagram">KVG43aEyW0SQNKdLJwZG4AAA</XPD:REF>
+</XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
