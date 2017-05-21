@@ -5055,7 +5055,7 @@
 <XPD:REF name="Incomings[0]">ynDxmcCg9UGjEog+2e4IUQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Subvertices[2]" type="UMLActionState" guid="h6uldWF8dU+iesKd+5WKewAA">
-<XPD:ATTR name="Name" type="string">将客源分配给指定咨询员</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">将客源分配给指定咨询员·</XPD:ATTR>
 <XPD:REF name="ContainerState">HYQ0UmnvpUKQhdQe6sQq+AAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
 <XPD:REF name="Views[0]">vNlGxZvnHkC/iufzpJpv7gAA</XPD:REF>
@@ -5130,12 +5130,12 @@
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">228</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">140</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">153</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">157</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">29</XPD:ATTR>
 <XPD:REF name="Model">h6uldWF8dU+iesKd+5WKewAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="ELM4SWJ9SUWLoYi/DzvcWAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="KRBGyjew8Eu/YVEihowUGQAA">
-<XPD:ATTR name="Text" type="string">将客源分配给指定咨询员</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">将客源分配给指定咨询员·</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="xiWtD/bQQUy4AiJy/IvHjgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -5148,7 +5148,7 @@
 <XPD:OBJ name="OwnedViews[4]" type="UMLTransitionView" guid="ykX6tIao+ku4yCyaerkpfgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">304,96;304,140</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">304,96;306,140</XPD:ATTR>
 <XPD:REF name="Model">7zIOQF19Xk6+4vsoZFWaxAAA</XPD:REF>
 <XPD:REF name="Head">vNlGxZvnHkC/iufzpJpv7gAA</XPD:REF>
 <XPD:REF name="Tail">UJ0/5qaaeU+QBoZsL1P1RwAA</XPD:REF>
